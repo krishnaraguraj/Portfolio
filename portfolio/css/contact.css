@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "poppins", sans-serif;
+    
+    
+}
+body{
+    background-image: url(../images/—Pngtree—website\ technology\ line\ dark\ background_2443641.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.formbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 400px;
+    height: 500px;
+    padding: 20px 0px;
+    margin-top: 5px;
+    left: 490px;
+    backdrop-filter: blur(10px);
+    top: 90px;
+    
+    
+}
+.formbox form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+
+}
+.formbox .form-blocks{
+    border-bottom: 1px solid white;
+    width: 100%;
+    
+}
+.formbox form h2{
+    color: white;
+    text-align: center;
+    
+}
+.form-blocks input{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    background:transparent;
+    outline: none;
+    width: 275px;
+    
+}
+.form-blocks label{
+    font-size: 15px;
+    color: white;
+    padding: 10px 0px;
+}
+.form-block #btn{
+        width: 100%;
+        height: 50px;
+        background-color: #FF204E;
+        border: none;
+        color: white;
+        border-radius: 2px;
+        font-size: 19px;
+        margin-top: 20px;
+        cursor: pointer;
+}
+.form-blocks input {
+    color: #FF204E;
+    margin-top: 10px;
+    text-align: justify;
+    font-weight: 600;
+}
+
+
+@media screen and (max-width: 600px) {
+    .formbox{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: 60px;
+        width: 200px;
+    }
+    .form-blocks input{
+        border: none;
+        background:transparent;
+        outline: none;
+        width: 75px;
+        margin-bottom: 25px;
+    }
+}
